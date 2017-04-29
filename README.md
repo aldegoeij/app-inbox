@@ -6,3 +6,5 @@ Getting totally annoyed not being able to Alt-Tab to a dedicated window for Inbo
 Aim is to support Windows, Mac OS X Sierra and Ubuntu (Gnome), fancy features (notifications, trays) will come as I miss them :)
 
 Feel free to send pull-requests, please don't fork ;)
+
+In order to run you have to download the Electron binaries or use the [pre-packaged version].

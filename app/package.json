@@ -2,7 +2,7 @@
   "name": "app-inbox",
   "version": "0.0.1",
   "description": "Electron based, cross-platform, minimal Google Inbox app.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
