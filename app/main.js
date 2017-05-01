@@ -18,15 +18,22 @@ function createWindow () {
       height: 600,
       center: true,
       title: 'Loading Google Inbox...',
+      //sandbox: true,
       titleBarStyle: 'hidden',
-      icon: 'google-inbox-logo.png'
+      icon: 'google-inbox-logo.png',
+      webPreferences: {
+          //nodeIntegration: false,
+          //contextIsolation: true
+    }
   })
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
-    pathname: 'inbox.google.com',
-    protocol: 'https:',
-    slashes: true
+    //pathname: 'inbox.google.com',
+    //protocol: 'https:',
+    pathname: path.join(__dirname, 'main.html'),
+    protocol: 'file:',
+      slashes: true
   }))
 
   // Open the DevTools.
